@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    background-color: #ef6364;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 60px;
+}
+
+.links a:hover {
+    color: #524283;
+}
+
+.listadepets {
+    padding: 60px 200px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+footer {
+    background-color: #ef6364;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: -20px;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+
+
+
+.listadepets img {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    border: 6px solid #524283;
+    margin-top: 50px;
+}
